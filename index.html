@@ -273,12 +273,9 @@
             desc: "Fonctionnalités d'administration complète: gestion des utilisateurs (activation/suspension), modération des annonces, supervision des transactions financières, monitoring des livraisons, gestion des commissions, extraction de rapports, paramétrage du système.",
             components: "Use cases: Gérer rôles/permissions, Valider/rejeter annonces, Tableau de bord KPI, Gérer les litiges, Configurer les frais de service, Audit des paiements.",
             extraInfo: "Back-office central avec vue macro et micro."
-        },
-    
+        }
     ];
 
-    // Pour garantir que le dernier fichier ait un nom fictif mais utilisable, on gère un fallback image placeholder.
-    // Mais les noms exacts des fichiers remontent.
     let currentRoleFilter = "all";      // catégorie (class/sequence/usecase)
     let currentActorFilter = "all";     // admin/vendeur/acheteur/livreur/all
     let activeDiagrams = [...diagramsData];
